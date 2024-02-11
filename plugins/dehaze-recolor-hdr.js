@@ -83,8 +83,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 			break;
 	}
 };
-handler.help = ["dehaze","recolor","hdr"];
-handler.tags = ["tools"];
+handler.help = ["dehaze","recolor","hd"];
+handler.tags = ["image-edit"];
 handler.command = ["dehaze","recolor","hd"];
 export default handler;
 
